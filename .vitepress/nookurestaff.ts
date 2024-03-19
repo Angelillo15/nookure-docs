@@ -7,9 +7,9 @@ const nkstaff = [
     items: [
       { text: 'What is Nookure Staff?', link: 'what-is-nookurestaff' },
       { text: 'Supported Versions', link: 'support' },
-      { text: 'Installation', link: 'installation' },
       { text: 'Choosing a database', link: 'database' },
-      { text: 'Choosing a messenger', link: 'messenger' }
+      { text: 'Choosing a messenger', link: 'messenger' },
+      { text: 'Installation', link: 'installation' }
     ]
   },
   {
@@ -18,6 +18,7 @@ const nkstaff = [
     items: [
       { text: 'Permissions', link: 'permissions' },
       { text: 'Commands', link: 'commands' },
+      { text: 'Configuration', link: 'configuration' }
     ]
   },
   {

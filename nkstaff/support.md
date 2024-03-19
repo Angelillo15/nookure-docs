@@ -2,7 +2,10 @@
 title: Supported versions
 ---
 # Choosing compatible server software
-Prior to installing Nookure Staff, ensure you select a compatible server version and proxy for multi-server functionality. The minimum requirement is to run Paper 1.16, although it is recommended to use Paper 1.18.x or newer for optimal performance, as older versions are untested. Server softwares based on Spigot or Minecraft 1.15.x and older will not be supported due to the lack of [Adventure](https://docs.advntr.dev/) support.
+
+Prior to installing Nookure Staff, ensure you select a compatible server version and proxy for multi-server functionality. The minimum requirement is to run Paper 1.16, although it is recommended to use Paper 1.18.x or newer for optimal performance, as older versions are untested.
+
+> Server softwares based on Spigot or Minecraft 1.15.x and older will not be supported due to the lack of [Adventure](https://docs.advntr.dev/) support.
 
 ## Supported Minecraft backends
 
