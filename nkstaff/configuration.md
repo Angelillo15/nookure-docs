@@ -9,7 +9,9 @@ Nookure Staff features a extensive configuration to allow users modify almost ev
 
 These are the general options, where you will be able to change the database type, activate or deactivate separate modules and change some aspects of the staff mode and freeze modules.
 
-```
+::: details config.yml
+
+```yaml
 # ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
 # •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
 # ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
@@ -137,12 +139,13 @@ freeze:
     - ban {player} <red>You have been baned for ss evading
 
 ```
+:::
 
 ## messenger.yml
 
 Here you can choose which messager you want to use. See [Choosing a messenger](https://nookure-docs.pages.dev/nkstaff/messenger.html) to understand how to configurate this file.
-
-```
+::: details messenger.yml
+```yaml
 # ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
 # •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
 # ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
@@ -188,12 +191,14 @@ redis:
   timeout: 2000
 
 ```
+:::
 
 ## messages.yml
 
 This file contains every message of the plugin. You can modify the language, colors and structure in any way you want. [MiniMessage](https://webui.advntr.dev/) is used, but you can also use legacy color codes.
 
-```
+::: details messages.yml
+```yaml
 # ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
 # •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
 # ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
@@ -299,12 +304,15 @@ placeholder:
   placeholder-false: <red>✘
 
 ```
+:::
 
 ## commands.yml
 
 In this file you can modify the plugin commands, add aliases and change the permissions.
 
-```
+::: details commands.yml
+
+```yaml
 # ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
 # •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
 # ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
@@ -429,12 +437,14 @@ commands:
 
 
 ```
+:::
 
 ## items.yml
 
 Here you can modify each item from the plugin's staff mode tools.
 
-```
+::: details items.yml
+```yaml
 # ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
 # •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
 # ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
@@ -668,3 +678,4 @@ staff-items:
         - <gray>Click to toggle vanish
 
 ```
+:::
