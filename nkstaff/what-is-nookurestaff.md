@@ -20,9 +20,14 @@ Nookure Staff is a versatile Minecraft moderation plugin designed to assist staf
 
 ## Staff Mode
 Coming soon...
-
 ## Freeze
-Coming soon...
+1º part of the video: players view
+<br>
+2º part of the video: staff view
+
+<iframe style="width: 100%; height: 390px;"
+src="https://www.youtube.com/embed/gTf7XnpiLSo">
+</iframe>
 
 ## Staff Chat
 Coming soon...
