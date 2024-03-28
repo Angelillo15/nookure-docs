@@ -1,6 +1,3 @@
----
-title: Configuration
----
 # Modifying the configurations
 
 Nookure Staff features a extensive configuration to allow users modify almost every aspect of the plugin. To do so, you only have to navigate to the plugin directory at plugins/NookureStaff/ where you will be able to modify each file. Each part is commented to understand how you can modify each setting.
