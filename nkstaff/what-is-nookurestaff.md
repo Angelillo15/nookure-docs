@@ -1,15 +1,14 @@
 ---
 title: Nookure Staff
 ---
-
 # Introduction
 
 Nookure Staff is a versatile Minecraft moderation plugin designed to assist staff members on servers of all sizes. It offers useful tools like vanish, staff chat, player freezing, and more, catering to the needs of both small standalone servers and large multi-server or multi-proxy setups.
 
-## Main features
+## Main Features
 
 | Feature       | Explanation                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Staff Mode    | This mode restricts staff members from impacting the server state unless they have special permissions, while still granting them access to valuable moderation tools.                                                                                                                                                                                                                |
 | Vanish        | The vanish state can be activated by staff members using a command or while in Staff Mode, rendering them invisible to regular players. This feature enables staff to spectate players discreetly, monitor for hacks, and ensure compliance with server rules.                                                                                                                        |
 | Freeze        | This tool enables staff members to freeze players and display a message in the chat. It can be particularly useful when staff need to conduct a screenshare on a user to verify if they are cheating.                                                                                                                                                                                 |
@@ -19,15 +18,29 @@ Nookure Staff is a versatile Minecraft moderation plugin designed to assist staf
 | Customization | Nookure Staff offers extensively customizable configuration files that allow for precise adjustments to every aspect of the plugin. Messages, items, and commands can be effortlessly modified within seconds. Additionally, the plugin boasts a variety of features that can be selectively enabled or disabled to tailor the user experience and ensure optimal server performance. |
 
 ## Staff Mode
-Coming soon...
+
+This module is the main part of the plugin, which collects everything in a special mode for the staff members.
+
+While in staff mode, players cannot interact with blocks or entities, and they will be able to toggle vanish easily using the dedicated item in their inventory. They will also be able to fly and they will have invincibility, so they will not be able to die.
+
+The staff mode inventory features several items such as random player teleport, invsee, compass (also known as thru), night vision toggle, freeze, enderchest see, and vanish.
+
+Apart from those predefined items, you will also be able to create new items or customize the predefined ones entirely, from the inventory object to the item name or lore.
+
 ## Freeze
-1º part of the video: players view
-<br>
-2º part of the video: staff view
+
+This module of the plugin will allow the staff members of your server to prevent any player from moving and display a message in the chat. Furthermore, a private chat will be created between the frozen player and the staff member, so any conversation will remain private.
+
+If a player leaves the server while frozen, the staff will be prompted to automatically execute predefined commands in the config by clicking a message on the chat. In this way, the staff member will be able to do things more easily.
+
+In this video, you can see how the freeze module works, both from the staff and the player's point of view:
 
 <iframe style="width: 100%; height: 390px;"
 src="https://www.youtube.com/embed/gTf7XnpiLSo">
 </iframe>
 
 ## Staff Chat
-Coming soon...
+
+The staff chat module allows staff members to communicate easily and privately via the Minecraft chat, creating a separate channel where they can send messages with a command or toggle sending messages between the public and private chat.
+
+Apart from that, if Nookure Staff is installed in a network, the staff chat messages will be synchronized across all the servers, and whenever a player sends a message to the staff chat, it will show the server it is in.

@@ -19,10 +19,10 @@ This is the best option when you don't have a network, or you have a network and
 
 This is the best when you have a network and you want to sync the data between the servers, you have a single proxy and you don't have a redis server.
 
-![Plugin Message](/pluginmessage.svg)
+![Plugin Message](assets/pluginMessage.svg)
 
 ## Redis
 
 This is best option in networks and MultiProxy networks cases, as this doesn't use the player connection to send the data across servers.
 
-![Redis](/redis.svg)
+![Redis](assets/redis.svg)
