@@ -1,6 +1,7 @@
 ---
 title: Nookure Staff
 ---
+
 # Introduction
 
 Nookure Staff is a versatile Minecraft moderation plugin designed to assist staff members on servers of all sizes. It offers useful tools like vanish, staff chat, player freezing, and more, catering to the needs of both small standalone servers and large multi-server or multi-proxy setups.
@@ -8,7 +9,7 @@ Nookure Staff is a versatile Minecraft moderation plugin designed to assist staf
 ## Main Features
 
 | Feature       | Explanation                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Staff Mode    | This mode restricts staff members from impacting the server state unless they have special permissions, while still granting them access to valuable moderation tools.                                                                                                                                                                                                                |
 | Vanish        | The vanish state can be activated by staff members using a command or while in Staff Mode, rendering them invisible to regular players. This feature enables staff to spectate players discreetly, monitor for hacks, and ensure compliance with server rules.                                                                                                                        |
 | Freeze        | This tool enables staff members to freeze players and display a message in the chat. It can be particularly useful when staff need to conduct a screenshare on a user to verify if they are cheating.                                                                                                                                                                                 |
@@ -36,7 +37,7 @@ If a player leaves the server while frozen, the staff will be prompted to automa
 In this video, you can see how the freeze module works, both from the staff and the player's point of view:
 
 <iframe style="width: 100%; height: 390px;"
-src="https://www.youtube.com/embed/gTf7XnpiLSo">
+src="https://lite-youtube-embed-iframe.vercel.app/embed/gTf7XnpiLSo">
 </iframe>
 
 ## Staff Chat
