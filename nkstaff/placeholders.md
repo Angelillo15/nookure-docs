@@ -9,7 +9,7 @@ No additional modules have to be downloaded from the PlaceholderAPI eCloud. You 
 
 
 | Placeholder            | Output         | Output                                                       |
-| :----------------------- | :--------------- | -------------------------------------------------------------- |
+| :--------------------- | :------------- | ------------------------------------------------------------ |
 | %nkstaff_server_count% | Integer number | Number of players connected, but excluding vanished players. |
 | %nkstaff_staff_count%  | Integer number | Number of staff players connected.                           |
 | %nkstaff_staff_mode%   | Boolean        | Whether if a player is in staff mode.                        |
