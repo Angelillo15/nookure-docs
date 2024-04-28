@@ -16,6 +16,7 @@ const nkstaff = [
     text: 'Usage',
     collapsed: false,
     items: [
+      { text: 'Placeholders', link: 'placeholders' },
       { text: 'Permissions', link: 'permissions' },
       { text: 'Commands', link: 'commands' },
       { text: 'Configuration', link: 'configuration' }
