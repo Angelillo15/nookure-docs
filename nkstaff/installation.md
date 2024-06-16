@@ -33,3 +33,7 @@ Navigate to your server's /plugins directory and upload the jarfile you have jus
 If everything is working correctly, after restarting the server Nookure Staff will start for the first time, downloading the necessary libraries from an external server (this is done to reduce the jarfile size). Then, the plugin will connect to the default SQLite server. You will see a message simmilar to this:
 
 ![Nookure Staff startup](assets/pluginStartup.png)
+
+### 5. Add the staff base permission to your staff members
+
+In order to the plugin to know who is a staff member, you must give them the permission `nookure.staff`. This permission is used to differentiate staff members from regular players in the plugin. See more about permissions [here](/nkstaff/permissions.html)
