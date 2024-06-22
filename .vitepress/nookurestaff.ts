@@ -9,7 +9,8 @@ const nkstaff = [
       { text: 'Supported Versions', link: 'support' },
       { text: 'Choosing a database', link: 'database' },
       { text: 'Choosing a messenger', link: 'messenger' },
-      { text: 'Installation', link: 'installation' }
+      { text: 'Installation', link: 'installation' },
+      { text: 'Proxy Setup', link: 'proxy-setup' }
     ]
   },
   {
