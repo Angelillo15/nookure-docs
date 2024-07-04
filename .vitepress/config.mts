@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import nkstaff from './nookurestaff';
+import inventory from './nookureInventory';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,9 +19,20 @@ export default defineConfig({
         link: '/nkstaff/what-is-nookurestaff',
         activeMatch: '/nkstaff/',
       },
+      {
+        text: 'For developers',
+        items: [
+          {
+            text: 'Nookure Inventory',
+            link: '/inv/what-is-nookureinventory',
+            activeMatch: '/inv/',
+          },
+        ]
+      }
     ],
     sidebar: {
       '/nkstaff/': { base: '/nkstaff/', items: nkstaff },
+      '/inv/': { base: '/inv/', items: inventory },
     },
 
     socialLinks: [
