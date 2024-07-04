@@ -1,6 +1,6 @@
 # Nookure Inventory
 This is a simple library that aims to provide a simple way to create inventory for your
-Paper plugin ([Spigot support*](#spigot-support) using a XML based file with a template engine,
+Paper plugin ([Spigot support*](#spigot-support)) using a XML based file with a template engine,
 if you are a web developer you will feel at home with terms like `components`.
 
 The main point of this library is to provide a way to create inventory without the need to
