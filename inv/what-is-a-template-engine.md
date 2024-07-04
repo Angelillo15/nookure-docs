@@ -15,7 +15,7 @@ For example, we have a template like this:
         <-- Here we are going to put the items -->
     </Items>
 </GuiLayout>
-
+```
 But we want to customize the title of the inventory, to say the name of the player, we can use a template engine to do this, in the NookureInventory we use the Pebble template engine, so we can do something like this:
 ```xml
 <GuiLayout>
