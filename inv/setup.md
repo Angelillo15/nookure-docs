@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.nookure.core.inv:NookureInventory:<version>")
+    implementation("com.nookure.core:NookCore-Inventory:<version>")
 }
 ```
 
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.nookure.core.inv:NookureInventory:<version>'
+    implementation 'com.nookure.core:NookCore-Inventory:<version>'
 }
 ```
 ### Maven
@@ -37,8 +37,8 @@ dependencies {
 
 <dependencies>
     <dependency>
-        <groupId>com.nookure.core.inv</groupId>
-        <artifactId>NookureInventory</artifactId>
+        <groupId>com.nookure.core</groupId>
+        <artifactId>NookCore-Inventory</artifactId>
         <version>VERSION</version>
     </dependency>
 </dependencies>
