@@ -102,7 +102,9 @@ We are going to create a xml file in our resources folder, in this case, we are 
 ## Loading the GUI with a command
 Now that we have our GUI created, we need to load it, we are going to create a simple command that will open the GUI when executed.
 
-```java
+::: code-group
+
+```java [ExampleCommand.java]
 public class ExampleCommand extends Command {
   private final PaperNookureInventoryEngine engine;
 
@@ -124,10 +126,7 @@ public class ExampleCommand extends Command {
 }
 ```
 
-## Registering the command (if you don't know how to do it)
-If you don't know how to register a command, you can do it like this with the `CommandMap` class.
-
-```java
+```java [Main.java]
 public class Main extends JavaPlugin {
   private PaperNookureInventoryEngine engine;
 
