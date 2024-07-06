@@ -13,6 +13,14 @@ const inventory = [
       { text: 'IDE setup', link: 'ide-setup' }
     ]
   },
+  {
+    text: 'Pagination',
+    collapsed: false,
+    items: [
+      { text: 'What is pagination?', link: 'pagination/what-is-pagination' },
+      { text: 'Setting up pagination', link: 'pagination/how-to-do-pagination' },
+    ]
+  },
 ] as DefaultTheme.SidebarItem[];
 
 export default inventory;
