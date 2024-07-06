@@ -52,4 +52,9 @@ export default defineConfig({
       copyright: `Copyright © Nookure ${new Date().getFullYear()}`,
     }
   },
+  markdown: {
+    image: {
+      lazyLoading: true,
+    }
+  }
 });
