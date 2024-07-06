@@ -147,7 +147,7 @@ template. In your parent template you define "blocks" which are the sections tha
 
 First let us look at an example of a parent template:
 ```twig
-{% verbatim %}
+
 <html>
 <head>
 	<title>{% block title %}My Website{% endblock %}</title>
@@ -163,7 +163,6 @@ First let us look at an example of a parent template:
 	</div>
 </body>
 </html>
-{% endverbatim %}
 ```
 In the above example, we have used the <code v-pre>{{ anchor('block') }}</code> tag to define several sections that child templates are
 allowed to override.
@@ -171,7 +170,6 @@ allowed to override.
 A child template might look like this:
 
 ```twig
-{% verbatim %}
 {% extends "parent.html" %}
 
 {% block title %} Home {% endblock %}
@@ -180,7 +178,6 @@ A child template might look like this:
 	<h1> Home </h1>
 	<p> Welcome to my home page.</p>
 {% endblock %}
-{%- endverbatim %}
 ```
 
 The first line uses the <code v-pre>{{ anchor('extends') }}</code> tag to declare the parent template. The extends tag should be the
@@ -210,21 +207,19 @@ the value from the parent is used instead.
 
 Dynamic inheritance is possible by using an expression with the `extends` tag:
 ```twig
-{% verbatim %}{% extends ajax ? 'ajax.html' : 'base.html' %}{% endverbatim %}
+{% extends ajax ? 'ajax.html' : 'base.html' %}
 ```
 
 ## Macros
 Macros are lightweight and reusable template fragments. A macro is defined via the <code v-pre>{{ anchor('macro') }}</code> tag:
 ```twig
-{% verbatim %}
 {% macro input(type, name) %}
 	<input type="{{ type }}" name="{{ name }}" />
 {% endmacro %}
-{% endverbatim %}
 ```
 And the macro will be invoked just like a function:
 ```twig
-{% verbatim %}{{ input("text", "name", "Mitchell") }}{% endverbatim %}
+{{ input("text", "name", "Mitchell") }}
 ```
 Child templates will have access to macros defined in a parent template. To use macros located in a completely
 different template, you can use the <code v-pre>{{ anchor('import') }}</code> tag. A macro does not have access to the main context; the
@@ -234,18 +229,17 @@ only variables it can access are it's local arguments.
 Using named arguments allows you to be more explicit with the values you are passing to a filter, function, test or
 macro. They also allow you to avoid specifying arguments for which you don't want to change the default value.
 ```twig
-{% verbatim %}{{ stringDate | date(existingFormat="yyyy-MMMM-d", format="yyyy/MMMM/d") }}{% endverbatim %}
+{{ stringDate | date(existingFormat="yyyy-MMMM-d", format="yyyy/MMMM/d") }}
 ```
 
 Positional arguments can be used in conjunction with named arguments but all positional arguments must come before
 any named arguments:
 ```twig
-{% verbatim %}{{ stringDate | date("yyyy/MMMM/d", existingFormat="yyyy-MMMM-d") }}{% endverbatim %}
+{{ stringDate | date("yyyy/MMMM/d", existingFormat="yyyy-MMMM-d") }}
 ```
 Macros are a great use case for named arguments because they also allow you to define default values for
 unused arguments:
 ```twig
-{% verbatim %}
 {% macro input(type="text", name, value) %}
 	<input type="{{ type }}" name="{{ name }}" value="{{ value }}" />
 {% endmacro %}
@@ -253,19 +247,16 @@ unused arguments:
 {{ input(name="country") }}
 
 {# will output: <input type="text" name="country" value="" /> #}
-{%- endverbatim %}
 ```
 ## Comments
 You can comment out any part of the template using the <code v-pre>{# ... #}</code> delimiters. These comments will not appear in
 the rendered output.
 ```twig
-{% verbatim %}
 {# THIS IS A COMMENT #}
 {% for article in articles %}
 	<h3>{{ article.title }}</h3>
 	<p>{{ article.content }}</p>
 {% endfor %}
-{%- endverbatim %}
 ```
 
 ## Expressions
@@ -306,36 +297,30 @@ You can combine multiple expressions with the following operators:
 ### Comparisons
 The following comparison operators are supported in any expression: `==`, `!=`, `<`, `>`, `>=`, and `<=`.
 ```twig
-{% verbatim %}
 {% if user.age >= 18 %}
 	...
 {% endif %}
-{%- endverbatim %}
 ```
 
 ### Tests
 The `is` operator performs tests. Tests can be used to test an expression for certain qualities.
 The right operand is the name of the test:
 ```twig
-{% verbatim %}
 {% if 3 is odd %}
 	...
 {% endif %}
-{%- endverbatim %}
 ```
 Tests can be negated by using the is not operator:
 ```twig
-{% verbatim %}
 {% if name is not null %}
 	...
 {% endif %}
-{%- endverbatim %}
 ```
 
 ### Conditional (Ternary) Operator
 The conditional operator is similar to its Java counterpart:
 ```twig
-{% verbatim %}{{ foo ? "yes" : "no" }}{% endverbatim %}
+{{ foo ? "yes" : "no" }}
 ```
 
 ### Operator Precedence
