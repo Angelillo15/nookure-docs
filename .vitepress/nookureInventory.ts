@@ -21,6 +21,15 @@ const inventory = [
       { text: 'Setting up pagination', link: 'pagination/how-to-do-pagination' },
     ]
   },
+  {
+    text: 'Actions',
+    collapsed: false,
+    items: [
+      { text: 'What are actions?', link: 'actions/what-are-actions' },
+      { text: 'Action types', link: 'actions/action-types' },
+      { text: 'Registering custom actions', link: 'actions/registering-actions' },
+    ]
+  }
 ] as DefaultTheme.SidebarItem[];
 
 export default inventory;
