@@ -10,25 +10,28 @@ Prior to installing Nookure Staff, ensure you select a compatible server version
 ## Supported Minecraft backends
 
 
-| Version          | Paper (and forks) | Purpur | Spigot |
-| ------------------ | ------------------- | -------- | -------- |
-| 1.20.x           | ✅                | ✅     | ❌     |
-| 1.19.x           | ✅                | ✅     | ❌     |
-| 1.18.x           | ✅                | ✅     | ❌     |
-| 1.17.x           | ⚠️              | ⚠️   | ❌     |
-| 1.16.x           | ⚠️              | ⚠️   | ❌     |
-| 1.15.x and older | ❌                | ❌     | ❌     |
+| Version          | Paper (and forks) | Purpur | Spigot | PufferFish |
+| ------------------ | ------------------- | -------- | -------- | ------------ |
+| 1.21.x           | ✅                | ✅     | ⚠️   | ✅         |
+| 1.20.x           | ✅                | ✅     | ⚠️   | ✅         |
+| 1.19.4           | ✅                | ⚠️   | ❌     | ⚠️       |
+| 1.18.x           | ⚠️              | ⚠️   | ❌     | ⚠️       |
+| 1.17.x           | ⚠️              | ⚠️   | ❌     | ⚠️       |
+| 1.16.x           | ⚠️              | ⚠️   | ❌     | ⚠️       |
+| 1.15.x and older | ❌                | ❌     | ❌     | ❌         |
 
 - ✅ Should work without any issues.
 - ⚠️ Should work, but it may have some issues as it is not fully tested.
-- ❌ Not supported because [Adventure](https://docs.advntr.dev/) is not supported.
+- ❌ Not supported because [Adventure](https://docs.advntr.dev/) is not supported or some other issues.
 
 ## Supported proxies
 
 
 | Proxy                  | Compatible                 |
 | ------------------------ | ---------------------------- |
-| Velocity               | ✅ (version 3.x and newer) |
-| BungeeCord (and forks) | ❌ (see more info below)   |
+| Velocity               | ✅✅ (version 3.x and newer) |
+| BungeeCord (and forks) | ✅ (see more info below  |
 
-ℹ️ While the plugin is currently in development, it only supports Velocity proxies. However, starting from version 1.0.0, BungeeCord proxies will also be supported.
+> [!WARNING]
+> Velocity is significantly more modern than Waterfall and Bungeecord, and can be up to 8 times faster. For a network with hundreds or thousands of players, this makes a huge difference on CPU and memory load, allowing more CPU time to be spent on serving players.
+> Thats why we focus on Velocity, but we also support BungeeCord.
